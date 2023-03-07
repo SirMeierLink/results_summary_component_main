@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+
+  <section class="summary">
+    <div class="summary__left-side">
+      <h2 class="summary__left-side--heading">Your Result</h2>
+      <div class="summary__left-side--percentage">
+        <p>76</p>
+        <p>of 100</p>
+      </div>
+
+      <div class="summary__left-side--great">
+        <h2>Great</h1>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+      </div>
+    </div>
+
+    <div class="summary__right-side">
+      <h2 class="summary__right-side--heading">Summary</h2>
+      <div class="summary__right-side--box">
+        <div class="summary__right-side--box-reaction summary__right-side--boxes">
+          <div class="summary__right-side--out-of-hundred">
+            <figure>
+              <img loading="lazy" src="./assets/images/icon-reaction.svg">
+              <span>Reaction</span>
+            </figure>
+          </div>
+          <div>
+            <span class="summary__right-side-box-number">80</span>
+            <span class="summary__right-side-box-number-faded"> / 100</span>
+          </div>
+        </div>
+
+        <div class="summary__right-side--box-memory summary__right-side--boxes">
+          <div class="summary__right-side--out-of-hundred">
+            <figure>
+              <img loading="lazy" src="./assets/images/icon-memory.svg">
+              <span>Memory</span>
+            </figure>
+          </div>
+          <div>
+            <span class="summary__right-side-box-number">92</span>
+            <span class="summary__right-side-box-number-faded"> / 100</span>
+          </div>
+        </div>
+
+        <div class="summary__right-side--box-verbal summary__right-side--boxes">
+          <div class="summary__right-side--out-of-hundred">
+            <figure>
+              <img loading="lazy" src="./assets/images/icon-verbal.svg">
+              <span>Verbal</span>
+            </figure>
+          </div>
+          <div>
+            <span class="summary__right-side-box-number">61</span>
+            <span class="summary__right-side-box-number-faded"> / 100</span>
+          </div>
+        </div>
+
+        <div class="summary__right-side--box-visual summary__right-side--boxes">
+          <div class="summary__right-side--out-of-hundred">
+            <figure>
+              <img loading="lazy" src="./assets/images/icon-visual.svg">
+              <span>Visual</span>
+            </figure>
+          </div>
+          <div>
+            <span class="summary__right-side-box-number">72</span>
+            <span class="summary__right-side-box-number-faded"> / 100</span>
+          </div>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
